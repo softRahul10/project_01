@@ -1,0 +1,36 @@
+:root {
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+}
+
+/* Header styles */
+.page-header {
+    background-color: #8071ff;
+    color: #fff;
+    padding: 0.1rem 1rem 0.2rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+.center .title{
+    padding: 0 0 0 0.4rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
