@@ -34,3 +34,13 @@ body {
     font-weight: bold;
     text-transform: capitalize;
 }
+
+/* Main section */
+.page-main{
+    min-height: 100vh;
+}
+
+/* Footer */
+.page-footer{
+    background-color: black;
+}
