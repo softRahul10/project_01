@@ -46,6 +46,26 @@ body {
     padding: 2rem 1rem;
 }
 
+.sectionA .github{
+    padding: 1rem 0.5rem;
+    text-align: center;
+}
+.github a{
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid ;
+    padding: 0.4rem 1rem;
+    color: purple;
+    border-radius: 1rem;
+    transition: 100ms all;
+}
+.github a:hover{
+    background-color: purple;
+    color: rgb(255, 255, 255);
+    border:2px solid rgb(255, 255, 255);
+
+}
+
 /* project */
 .project{
     border:2px solid #bbb;
