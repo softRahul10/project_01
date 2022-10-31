@@ -115,3 +115,16 @@ body {
     margin: 0;
     font-size: 0.9rem;
 }
+
+/* Desktop */
+@media screen and (min-width:720px) {
+    .project-container{
+        flex-direction: row;
+        justify-content: space-evenly;
+        gap:1rem;
+    }
+    .project{
+
+    }
+
+}
