@@ -71,6 +71,11 @@ body {
 }
 
 /* project */
+.project-container{
+    display: flex;
+    flex-direction: column;
+    gap:4rem;
+}
 .project{
     border:2px solid #bbb;
     text-align: center;
@@ -80,6 +85,14 @@ body {
     max-height: 100%;
 }
 
+.card-link a{
+    font-size: 1rem;
+    text-decoration: none;
+    display: inline-block;
+    border: solid;
+    padding: 0.2rem 1rem;
+    border-radius: 0.5em;
+}
 
 /* Footer */
 .page-footer{
