@@ -122,9 +122,10 @@ body {
         flex-direction: row;
         justify-content: space-evenly;
         gap:1rem;
+        flex-wrap: wrap;
     }
     .project{
-
+        flex-basis: 30%;
     }
 
 }
